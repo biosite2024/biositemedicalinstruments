@@ -1,0 +1,50 @@
+/*---------------------------------------
+  PARTNERS              
+-----------------------------------------*/
+.partners-section {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.partners-section-title {
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+  margin-bottom: -50px;
+  padding: 10px 20px;
+}
+
+.employee-title {
+  font-family: "Poppins", sans-serif;
+}
+
+.partners-image {
+  display: block;
+  width: 150px;
+  margin: auto;
+  transition: all 0.3s;
+}
+
+.partners-image:hover {
+  transform: scale(1.05);
+}
+
+.qr-label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+   color: #2c2d3f;
+  margin: 0;
+ 
+}
+
+.bold-text2 {
+  font-weight: 600; /* or bold */
+  color: #E92628;
+}
+
+ .bold-text {
+  font-weight: 600; /* or bold */
+  color: #21409A;
+}

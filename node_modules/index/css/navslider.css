@@ -1,0 +1,41 @@
+
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 7)); }
+}
+
+.topbar {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 100px;
+  background-color: #fff;  /* or whatever your navbar bg is */
+  padding: 0 20px;
+  position: relative;
+  z-index: 1000;
+}
+
+.slider {
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+  align-items: center;
+}
+
+.slider .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+}

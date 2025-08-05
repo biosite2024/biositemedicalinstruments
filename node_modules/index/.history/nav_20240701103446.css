@@ -1,0 +1,23 @@
+.navbar {
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  
+
+
+
+
+
+
+
+
+}
+
+.container-flex-properties {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;}
